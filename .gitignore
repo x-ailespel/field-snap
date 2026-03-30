@@ -1,0 +1,23 @@
+# Ignore heavy folders
+node_modules/
+dist/
+.gradle/
+build/
+.gemini/
+.android/
+.bubblewrap/
+.cache/
+.npm/
+android-sdk/
+fake-jdk/
+storage/
+
+# Ignore large binary files
+*.zip
+*.tar.gz
+*.keystore
+
+# Keep these
+!.github/
+!field-snap/
+!android-project/
